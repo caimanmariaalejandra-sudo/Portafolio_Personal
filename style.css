@@ -1,41 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rozha+One&display=swap');
+
+
 body {
-  font-family: Rozha One,
-sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   background: #F6F2E6;
   color: #333;
   line-height: 1.6;
 }
 
-header  {
-background: #13156B;
-color: white;
-padding:2rem;
-text-align: center;
+
+header {
+  background: #13156B;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  letter-spacing: 1px;
 }
+
 
 section {
-padding: 2rem;
-max-width: 800px;
-margin: auto;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
+
 h2 {
- color: #0099CC
+  color: #0099CC;
+  font-family: 'Rozha One', serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+
+.cursiva {
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+  color: #555; 
+}
+
+
+a {
+  color: #1E4D57;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0099CC;
 }
 
 footer {
-   text-align: center;
-padding:1rem;
-background: #333;
-color: white;
-padding: 1rem;
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
 }
 
-a {
-  color:#1E4D57;
-  test-decoration: none;
-} 
-a:hover {
-  text-decoration: underline ;
-} 
+@media (max-width: 600px) {
+  section {
+    padding: 1.2rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
