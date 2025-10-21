@@ -115,3 +115,12 @@ nav ul li a:hover {
   transform: scale(1.05);       
   box-shadow: 0 5px 8px rgba(0,0,0,0.15);
 }
+
+
+.logo {
+  position: absolute;
+  right: 2rem;        
+  width: 45px;         
+  height: 45px;
+  object-fit: contain;  
+}
