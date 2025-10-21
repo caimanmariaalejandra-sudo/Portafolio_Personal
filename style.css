@@ -84,3 +84,34 @@ footer {
   }
 }
 
+/* === MENÚ DE NAVEGACIÓN === */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  background-color: #0099CC;   
+  color: white;                
+  padding: 0.6rem 1.2rem;      
+  border-radius: 8px;          
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;         
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+nav ul li a:hover {
+  background-color: #007BAA;    
+  color: #F6F2E6;              
+  transform: scale(1.05);       
+  box-shadow: 0 5px 8px rgba(0,0,0,0.15);
+}
