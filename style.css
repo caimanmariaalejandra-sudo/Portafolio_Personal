@@ -12,6 +12,7 @@ body {
 
 
 header {
+    position: relative; /* Permite que los elementos hijos se posicionen en relación a este contenedor */
   background: #13156B;
   color: white;
   padding: 2rem;
@@ -20,6 +21,15 @@ header {
   letter-spacing: 1px;
 }
 
+.logo {
+  position: absolute; /* Posiciona la imagen de manera absoluta */
+  top: 1rem; /* Ajusta la distancia desde la parte superior */
+  left: 1rem; /* Ajusta la distancia desde la izquierda */
+  width: 45px; /* Ancho de la imagen */
+  height: 45px; /* Alto de la imagen */
+  object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+ 
 
 section {
   padding: 2rem;
@@ -116,11 +126,3 @@ nav ul li a:hover {
   box-shadow: 0 5px 8px rgba(0,0,0,0.15);
 }
 
-
-.logo {
-  position: absolute;
-  right: 2rem;        
-  width: 45px;         
-  height: 45px;
-  object-fit: contain;  
-}
